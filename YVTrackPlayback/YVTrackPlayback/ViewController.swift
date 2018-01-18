@@ -76,22 +76,16 @@ class ViewController: UIViewController,MAMapViewDelegate  {
     }
     
     @objc func update(){
-        
         if uptateIndex >= traceCoordinates.count - 2 {
             UIView.animate(withDuration: 2, animations: {
-                if let aa = self.polyline {
-                    self.mapView.showOverlays([aa], edgePadding: UIEdgeInsetsMake(120, 20, 240, 20), animated: true)
-                }
-                if  let line = self.polyline  {
+                if let line = self.polyline {
+                    self.mapView.showOverlays([line], edgePadding: UIEdgeInsetsMake(120, 20, 240, 20), animated: true)
                     self.mapView.remove(line)
                 }
                 self.dpLink?.isPaused = true
                 self.dpLink?.remove(from: RunLoop.current, forMode: RunLoopMode.commonModes)
                 self.dpLink?.invalidate()
-                let time: TimeInterval = 2.0
-                DispatchQueue.main.asyncAfter(deadline:DispatchTime.now() + time , execute: {
-                    self.dpLink = nil
-                })
+                self.dpLink = nil
             })
             return
         }
@@ -142,15 +136,6 @@ class ViewController: UIViewController,MAMapViewDelegate  {
             poiAnnotationView?.imageView.layer.borderWidth = 2
             poiAnnotationView!.canShowCallout = false
             return poiAnnotationView
-        }
-        if annotation.isKind(of: MAPointAnnotation.self) {
-            let annotationIdentifier = "lcoationIdentifier"
-            var poiAnnotationView = mapView.dequeueReusableAnnotationView(withIdentifier: annotationIdentifier) as? MAPinAnnotationView
-            if poiAnnotationView == nil {
-                poiAnnotationView = MAPinAnnotationView(annotation: annotation, reuseIdentifier: annotationIdentifier)
-            }
-            poiAnnotationView!.canShowCallout = true
-            return poiAnnotationView;
         }
         return nil
     }
