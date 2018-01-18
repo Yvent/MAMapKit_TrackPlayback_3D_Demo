@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42AFFCBA201072EE0033843D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFFCB9201072EE0033843D /* AppDelegate.swift */; };
+		42AFFCBC201072EE0033843D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFFCBB201072EE0033843D /* ViewController.swift */; };
+		42AFFCBF201072EE0033843D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AFFCBD201072EE0033843D /* Main.storyboard */; };
+		42AFFCC1201072EE0033843D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AFFCC0201072EE0033843D /* Assets.xcassets */; };
+		42AFFCC4201072EE0033843D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AFFCC2201072EE0033843D /* LaunchScreen.storyboard */; };
+		42AFFCCE201078610033843D /* running_record.json in Resources */ = {isa = PBXBuildFile; fileRef = 42AFFCCD201078610033843D /* running_record.json */; };
+		62B819B3CFD8CF97417D71D3 /* Pods_YVTrackPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C75C97796A394350AA6FE5 /* Pods_YVTrackPlayback.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42AFFCB6201072EE0033843D /* YVTrackPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YVTrackPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AFFCB9201072EE0033843D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42AFFCBB201072EE0033843D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42AFFCBE201072EE0033843D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42AFFCC0201072EE0033843D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42AFFCC3201072EE0033843D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42AFFCC5201072EE0033843D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AFFCCD201078610033843D /* running_record.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = running_record.json; sourceTree = "<group>"; };
+		42AFFCD020107AE30033843D /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		6851A246525DE967B70F94D9 /* Pods-YVTrackPlayback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVTrackPlayback.release.xcconfig"; path = "Pods/Target Support Files/Pods-YVTrackPlayback/Pods-YVTrackPlayback.release.xcconfig"; sourceTree = "<group>"; };
+		A0828738E68E29CEE1E3EF05 /* Pods-YVTrackPlayback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVTrackPlayback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YVTrackPlayback/Pods-YVTrackPlayback.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C75C97796A394350AA6FE5 /* Pods_YVTrackPlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVTrackPlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42AFFCB3201072EE0033843D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B819B3CFD8CF97417D71D3 /* Pods_YVTrackPlayback.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111150076A0763B01568E974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0828738E68E29CEE1E3EF05 /* Pods-YVTrackPlayback.debug.xcconfig */,
+				6851A246525DE967B70F94D9 /* Pods-YVTrackPlayback.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42AFFCAD201072EE0033843D = {
+			isa = PBXGroup;
+			children = (
+				42AFFCB8201072EE0033843D /* YVTrackPlayback */,
+				42AFFCB7201072EE0033843D /* Products */,
+				111150076A0763B01568E974 /* Pods */,
+				BA1DA65FA834DCDBE46A20CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42AFFCB7201072EE0033843D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AFFCB6201072EE0033843D /* YVTrackPlayback.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42AFFCB8201072EE0033843D /* YVTrackPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				42AFFCCD201078610033843D /* running_record.json */,
+				42AFFCB9201072EE0033843D /* AppDelegate.swift */,
+				42AFFCBB201072EE0033843D /* ViewController.swift */,
+				42AFFCBD201072EE0033843D /* Main.storyboard */,
+				42AFFCC0201072EE0033843D /* Assets.xcassets */,
+				42AFFCC2201072EE0033843D /* LaunchScreen.storyboard */,
+				42AFFCC5201072EE0033843D /* Info.plist */,
+				42AFFCD020107AE30033843D /* Header.h */,
+			);
+			path = YVTrackPlayback;
+			sourceTree = "<group>";
+		};
+		BA1DA65FA834DCDBE46A20CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C75C97796A394350AA6FE5 /* Pods_YVTrackPlayback.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AFFCB5201072EE0033843D /* YVTrackPlayback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AFFCC8201072EE0033843D /* Build configuration list for PBXNativeTarget "YVTrackPlayback" */;
+			buildPhases = (
+				B603EAE4989957FAC4CE064B /* [CP] Check Pods Manifest.lock */,
+				42AFFCB2201072EE0033843D /* Sources */,
+				42AFFCB3201072EE0033843D /* Frameworks */,
+				42AFFCB4201072EE0033843D /* Resources */,
+				FC4DC97694A095005C0BA173 /* [CP] Embed Pods Frameworks */,
+				87B03BB878881D7075322A78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YVTrackPlayback;
+			productName = YVTrackPlayback;
+			productReference = 42AFFCB6201072EE0033843D /* YVTrackPlayback.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42AFFCAE201072EE0033843D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YV;
+				TargetAttributes = {
+					42AFFCB5201072EE0033843D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42AFFCB1201072EE0033843D /* Build configuration list for PBXProject "YVTrackPlayback" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42AFFCAD201072EE0033843D;
+			productRefGroup = 42AFFCB7201072EE0033843D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AFFCB5201072EE0033843D /* YVTrackPlayback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AFFCB4201072EE0033843D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFFCC4201072EE0033843D /* LaunchScreen.storyboard in Resources */,
+				42AFFCC1201072EE0033843D /* Assets.xcassets in Resources */,
+				42AFFCCE201078610033843D /* running_record.json in Resources */,
+				42AFFCBF201072EE0033843D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87B03BB878881D7075322A78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YVTrackPlayback/Pods-YVTrackPlayback-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YVTrackPlayback/Pods-YVTrackPlayback-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B603EAE4989957FAC4CE064B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YVTrackPlayback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4DC97694A095005C0BA173 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YVTrackPlayback/Pods-YVTrackPlayback-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42AFFCB2201072EE0033843D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFFCBC201072EE0033843D /* ViewController.swift in Sources */,
+				42AFFCBA201072EE0033843D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42AFFCBD201072EE0033843D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AFFCBE201072EE0033843D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42AFFCC2201072EE0033843D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AFFCC3201072EE0033843D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42AFFCC6201072EE0033843D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42AFFCC7201072EE0033843D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42AFFCC9201072EE0033843D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0828738E68E29CEE1E3EF05 /* Pods-YVTrackPlayback.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2T4S76962;
+				INFOPLIST_FILE = YVTrackPlayback/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YV.YVTrackPlayback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/ZYW/Desktop/YVTrackPlayback/YVTrackPlayback/Header.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42AFFCCA201072EE0033843D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6851A246525DE967B70F94D9 /* Pods-YVTrackPlayback.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2T4S76962;
+				INFOPLIST_FILE = YVTrackPlayback/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YV.YVTrackPlayback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/ZYW/Desktop/YVTrackPlayback/YVTrackPlayback/Header.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42AFFCB1201072EE0033843D /* Build configuration list for PBXProject "YVTrackPlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFFCC6201072EE0033843D /* Debug */,
+				42AFFCC7201072EE0033843D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AFFCC8201072EE0033843D /* Build configuration list for PBXNativeTarget "YVTrackPlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFFCC9201072EE0033843D /* Debug */,
+				42AFFCCA201072EE0033843D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42AFFCAE201072EE0033843D /* Project object */;
+}
